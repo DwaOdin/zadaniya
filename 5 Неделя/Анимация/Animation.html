@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stl.css">
+</head>
+<body>
+    <button>Показать блок</button>
+    <div class="Message">
+        Здесь анимация.
+    </div>
+    <script>
+        "use strict";
+        let btn = document.querySelector('button');
+        let msg = document.querySelector('.Message');
+        btn.addEventListener("click", function(event) {
+            msg.style.display = "block";
+            msg.classList.add("animate__animated", "animate__fadeInLeftBig");
+        });
+    </script>
+</body>
+</html>

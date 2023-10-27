@@ -1,0 +1,21 @@
+
+.product {
+    width: 200px;
+    height: 320px;
+    padding: 20px;
+    float: left;
+    margin-right: 50px;
+    box-shadow: 0 0 4px black;
+ background-color: aqua;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #0B63F6;
+    box-shadow: 0 5px 0 #003CC5;
+    cursor: pointer;
+    
+}
